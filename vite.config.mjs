@@ -13,6 +13,9 @@ export default defineConfig({
   define: {
     global: 'window'
   },
+  build: {
+    outDir: 'build' // Set the output directory to 'build'
+  },
   resolve: {
     // alias: [
     //   {
